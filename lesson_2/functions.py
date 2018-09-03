@@ -1,3 +1,6 @@
+""" This study script dedicated to simple different functions """
+
+
 # recursive function (factorial)
 def my_factorial_function(n):
     if n == 0:
