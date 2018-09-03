@@ -1,6 +1,6 @@
 import random
 
-
+# main class
 class Warrior:
     name = 'Warrior'
     health = 100
@@ -22,7 +22,7 @@ class Warrior:
     def __str__(self):
         return f"name: {self.name}\nhealth: {self.health}\nstrength: {self.strength}"
 
-
+# class which inherit from Warrior class
 class Viking(Warrior):
     extra_strength = 10
     extra_health = 30
@@ -38,7 +38,7 @@ class Viking(Warrior):
         Warrior.punch(self)
         pass
 
-
+# class which inherit from Warrior class
 class Knight(Warrior):
     extra_strength = 5
     extra_health = 40
@@ -62,14 +62,14 @@ Mark.scream()
 print(str(Mark))
 Mark.punch()
 
-# CREATING THE Viking OBJECT which inherited from WARRIOR Class
+# CREATING THE Viking OBJECT which inherit from WARRIOR Class
 Erick = Viking('Erick')
 print(type(Erick))
 Erick.scream()
 print(str(Erick))
 Erick.punch()
 
-# CREATING THE Knight OBJECT which inherited from WARRIOR Class
+# CREATING THE Knight OBJECT which inherit from WARRIOR Class
 Patrick = Knight('Patrick')
 print(type(Patrick))
 Patrick.scream()
