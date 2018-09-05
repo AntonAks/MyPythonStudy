@@ -1,0 +1,3 @@
+INFO: Folders list for clearing:
+C:\Users\Anton Aksynov\Documents\Work\log_clear_test\temp
+C:\Users\Anton Aksynov\Documents\Work\log_clear_test
