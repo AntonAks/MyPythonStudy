@@ -82,3 +82,17 @@
 2018-09-05 17:59:05,339 - INFO - SEARCHING FOR OLD *.txt FILESC:\Users\Anton Aksynov\Documents\Work\log_clear_test
 2018-09-05 17:59:05,455 - INFO - Removed: 23 ['*.log', '*.txt'] files
 2018-09-05 17:59:05,455 - INFO - FINISHED
+2018-09-06 14:25:40,626 - INFO - 
+--- SCRIPT STARTED ---
+
+2018-09-06 14:25:40,631 - INFO - MASK: *.log, *.txt
+
+2018-09-06 14:25:40,632 - INFO - HOURS: 240
+
+2018-09-06 14:25:40,636 - INFO - START CLEARING
+2018-09-06 14:25:40,637 - INFO - SEARCHING FOR OLD *.log FILESC:\Users\Anton Aksynov\Documents\Work\log_clear_test\temp
+2018-09-06 14:25:40,637 - INFO - SEARCHING FOR OLD *.log FILESC:\Users\Anton Aksynov\Documents\Work\log_clear_test
+2018-09-06 14:25:40,639 - INFO - SEARCHING FOR OLD *.txt FILESC:\Users\Anton Aksynov\Documents\Work\log_clear_test\temp
+2018-09-06 14:25:40,640 - INFO - SEARCHING FOR OLD *.txt FILESC:\Users\Anton Aksynov\Documents\Work\log_clear_test
+2018-09-06 14:25:40,641 - INFO - Removed: 0 ['*.log', '*.txt'] files
+2018-09-06 14:25:40,641 - INFO - FINISHED
