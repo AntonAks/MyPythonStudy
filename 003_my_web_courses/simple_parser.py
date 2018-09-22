@@ -14,6 +14,7 @@ result = response.json()
 result = result['response']
 result = result['items']
 
+
 temp_list_1 = []
 temp_result = []
 for i in range(0, len(result)):
