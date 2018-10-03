@@ -1,0 +1,1 @@
+python.exe "C:\\Users\\Anton Aksynov\\Documents\\GitRepo\\MyPythonStudy\\001_basic_python\\lesson_4_subprocess\\process_1.py"

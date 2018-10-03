@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e18f1a7-02b7-4cd2-8e5f-aaa46c46ee5b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/MyPythonStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyPythonStudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001_basic_python/lesson_4_subprocess/process_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001_basic_python/lesson_4_subprocess/process_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001_basic_python/lesson_4_subprocess/start.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/005_Kagle_Practice/01_Titanic/Titanic_Udemy_Version.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/005_Kagle_Practice/01_Titanic/Titanic_Udemy_Version.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/005_Kagle_Practice/02_PLAsTiCC Astronomical Classification/Astronomical_Classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/005_Kagle_Practice/02_PLAsTiCC Astronomical Classification/Astronomical_Classification.ipynb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,11 +57,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Astronomical_Classification.ipynb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/005_Kagle_Practice/02_PLAsTiCC Astronomical Classification/Astronomical_Classification.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="3" />
+      <file leaf-file-name="start.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/001_basic_python/lesson_4_subprocess/start.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subprocess.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/subprocess.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="1118" column="33" selection-start-line="1118" selection-start-column="30" selection-end-line="1118" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="process_1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/001_basic_python/lesson_4_subprocess/process_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="process_2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/001_basic_python/lesson_4_subprocess/process_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,8 +107,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -88,6 +125,12 @@
         <option value="$PROJECT_DIR$/004_UdemyCourse/Visual/01_Histograms.ipynb" />
         <option value="$PROJECT_DIR$/004_UdemyCourse/Visual/01_Histograms.py" />
         <option value="$PROJECT_DIR$/005_Kagle_Practice/02_PLAsTiCC Astronomical Classification/Astronomical_Classification.ipynb" />
+        <option value="$PROJECT_DIR$/001_basic_python/lesson_2/classes.py" />
+        <option value="$PROJECT_DIR$/001_basic_python/lesson_4_subprocess/cmd_start.py" />
+        <option value="$PROJECT_DIR$/001_basic_python/lesson_4_subprocess/process_1.py" />
+        <option value="$PROJECT_DIR$/001_basic_python/lesson_4_subprocess/cmd" />
+        <option value="$PROJECT_DIR$/001_basic_python/lesson_4_subprocess/process_2.py" />
+        <option value="$PROJECT_DIR$/001_basic_python/lesson_4_subprocess/start.py" />
       </list>
     </option>
   </component>
@@ -113,35 +156,18 @@
             <path>
               <item name="MyPythonStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyPythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="004_UdemyCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="001_basic_python" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyPythonStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyPythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="004_UdemyCourse" type="462c0819:PsiDirectoryNode" />
-              <item name="Visual" type="462c0819:PsiDirectoryNode" />
+              <item name="001_basic_python" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson_4_subprocess" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyPythonStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyPythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="005_Kagle_Practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="005_Kagle_Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="01_Titanic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="005_Kagle_Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="02_PLAsTiCC Astronomical Classification" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="my_functions" type="462c0819:PsiDirectoryNode" />
+              <item name="002_my_system_scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -150,7 +176,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/004_UdemyCourse/Visual/01_Histograms.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/001_basic_python/lesson_4_subprocess/start.py" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
@@ -170,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jupyter Notebook.Upyter Notebook">
+  <component name="RunManager" selected="Python.Python">
     <configuration name="Upyter Notebook" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="MyPythonStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,12 +220,12 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/bin/python3.6" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/004_UdemyCourse/Visual" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/001_basic_python/lesson_4_subprocess" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/004_UdemyCourse/Visual/01_Histograms.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/001_basic_python/lesson_4_subprocess/start.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,14 +269,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18541667" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18541667" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005208" side_tool="true" weight="0.32837406" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32837406" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.20510095" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.5462274" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -268,6 +293,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/005_Kagle_Practice/02_PLAsTiCC Astronomical Classification/Astronomical_Classification.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/004_UdemyCourse/Visual/01_Histograms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -351,6 +383,67 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001_basic_python/lesson_2/classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <element signature="e#653#1067#0" />
+            <element signature="e#1137#1550#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001_basic_python/lesson_4_subprocess/cmd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001_basic_python/lesson_4_subprocess/process_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001_basic_python/lesson_4_subprocess/p_2.cmd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001_basic_python/lesson_4_subprocess/p_1.cmd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001_basic_python/lesson_4_subprocess/process_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/subprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="1118" column="33" selection-start-line="1118" selection-start-column="30" selection-end-line="1118" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001_basic_python/lesson_4_subprocess/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
