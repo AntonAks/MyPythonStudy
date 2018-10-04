@@ -4,12 +4,9 @@ import sys
 
 from time import sleep
 
-p1 = subprocess.Popen("C:\\Users\\Anton Aksynov\\Documents\\GitRepo\\MyPythonStudy\\001_basic_python\\lesson_4_subprocess\\p_1.cmd", stdout=PIPE)
-p2 = subprocess.Popen("C:\\Users\\Anton Aksynov\\Documents\\GitRepo\\MyPythonStudy\\001_basic_python\\lesson_4_subprocess\\p_2.cmd")
+subprocess.Popen("C:\\Users\\Anton Aksynov\\Documents\\GitRepo\\MyPythonStudy\\001_basic_python\\lesson_4_subprocess\\p_1.cmd")
+subprocess.Popen("C:\\Users\\Anton Aksynov\\Documents\\GitRepo\\MyPythonStudy\\001_basic_python\\lesson_4_subprocess\\p_2.cmd")
 
-
-
-exit()
 
 
 # init events

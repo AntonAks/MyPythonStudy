@@ -1,0 +1,8 @@
+﻿qmc_task_path,task_name,password,full_reload_flag,full_reload_flag_current_day
+[UAT ANALYZER] COMPARE APP,EDX TEST APP.qvw,edx,1,0
+[UAT ANALYZER] COMPARE APP,EDX TEST APP_1.qvw,edx,0,0
+[UAT ANALYZER] COMPARE APP,EDX TEST APP_2.qvw,edx,1,0
+[UAT ANALYZER] COMPARE APP,Client 1.qvw,client1,0,0
+[UAT ANALYZER] COMPARE APP,Client 2.qvw,client2,1,0
+[UAT ANALYZER] COMPARE APP,Client 3.qvw,client3,1,0
+
