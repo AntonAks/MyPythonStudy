@@ -56,7 +56,7 @@ def run_stock_update():
                 id_update_list.append(id_tt)
 
         # CAP on testing time
-        # id_update_list = ['584835', '583667', '584935', '584919', '584914', '584888', '584836', '585246', '584784', '584745', '593234', '593235', '627241', '627245']
+        # id_update_list = ['584835', '583667', '584935', '584919', '584914', '584888', '584836', '585246']
         # id_update_list = ['585245', '585235', '634026', '584919', '634388']
         # Create command list to update
         cmd_list = list()
