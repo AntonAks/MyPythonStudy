@@ -1,3 +1,0 @@
-INFO: This is properties for mask files and old files hours
-MASK: *.log, *.txt
-HOURS: 240

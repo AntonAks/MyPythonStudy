@@ -1,26 +1,17 @@
+import pytz
+import time
 import datetime
+from os import path
 
+file_full_path_1 = 'C:\\Users\\Anton Aksynov\\Desktop\\StateReader Distribution\\2018-01-02_STA_DE16370400440504848300_EUR_000001.txt'
+file_full_path_2 = 'C:\\Users\\Anton Aksynov\\Desktop\\StateReader Distribution\\test_tab.qvd'
 
-string = datetime.datetime.now().strftime('%Y-%m-%d')
+m_time_1 = datetime.datetime.fromtimestamp(path.getmtime(file_full_path_1))
+m_time_2 = datetime.datetime.fromtimestamp(path.getmtime(file_full_path_2))
 
-result_file_prefix = 'TaskResult_'
-task_file_prefix = 'Task_'
+print(m_time_1, m_time_1.timetuple())
+print(m_time_2, m_time_2.timetuple())
 
-r_list = ['TaskResult_b8bcc602-953e-4317-97ad-b0ab1776ad0b.xml',
-          'TaskResult_197ebd5f-6080-4656-8950-ff451f3c0f22.xml',
-          'TaskResult_0233d925-1481-46fb-b463-04beedd689f1.xml']
-
-
-t_list = ['Task_b8bcc602-953e-4317-97ad-b0ab1776ad0b.xml',
-          'Task_197ebd5f-6080-4656-8950-ff451f3c0f22.xml',
-          'Task_0233d925-1481-46fb-b463-04beedd689f1.xml']
-
-
-for r in r_list:
-    for t in t_list:
-        if r.replace(result_file_prefix, '') == t.replace(task_file_prefix, ''):
-            print(r)
-
-
+exit()
 
 
